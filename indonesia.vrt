@@ -1,0 +1,70 @@
+<VRTDataset rasterXSize="160000" rasterYSize="120000">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  9.0000000000000000e+01,  2.5000000000000001e-04,  0.0000000000000000e+00,  1.0000000000000000e+01,  0.0000000000000000e+00, -2.5000000000000001e-04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_00N_090E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="0" yOff="40000" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_00N_100E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="40000" yOff="40000" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_00N_110E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="80000" yOff="40000" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_00N_120E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="120000" yOff="40000" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_10N_090E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_10N_100E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="40000" yOff="0" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_10N_110E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="80000" yOff="0" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_10N_120E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="120000" yOff="0" xSize="40000" ySize="40000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">shape/lossyear/Hansen_GFC2015_lossyear_10S_120E.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40000" RasterYSize="40000" DataType="Byte" BlockXSize="40000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40000" ySize="40000" />
+      <DstRect xOff="120000" yOff="80000" xSize="40000" ySize="40000" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
